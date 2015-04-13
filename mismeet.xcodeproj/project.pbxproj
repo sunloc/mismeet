@@ -1,755 +1,1722 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		C50DDB191AD2C4810088E9DD /* MIMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50DDB181AD2C4810088E9DD /* MIMBaseViewController.m */; };
-		C5989F781AD018100037D054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989F771AD018100037D054 /* main.m */; };
-		C5989F7B1AD018100037D054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989F7A1AD018100037D054 /* AppDelegate.m */; };
-		C5989F841AD018100037D054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5989F821AD018100037D054 /* Main.storyboard */; };
-		C5989F861AD018100037D054 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5989F851AD018100037D054 /* Images.xcassets */; };
-		C5989F891AD018100037D054 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5989F871AD018100037D054 /* LaunchScreen.xib */; };
-		C5989F951AD018100037D054 /* mismeetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989F941AD018100037D054 /* mismeetTests.m */; };
-		C5989FA91AD0185C0037D054 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FA81AD0185C0037D054 /* InterfaceController.m */; };
-		C5989FAC1AD0185C0037D054 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FAB1AD0185C0037D054 /* NotificationController.m */; };
-		C5989FAF1AD0185C0037D054 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FAE1AD0185C0037D054 /* GlanceController.m */; };
-		C5989FB11AD0185C0037D054 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5989FB01AD0185C0037D054 /* Images.xcassets */; };
-		C5989FB51AD0185C0037D054 /* mismeet WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C5989FB41AD0185C0037D054 /* mismeet WatchKit App.app */; };
-		C5989FBD1AD0185C0037D054 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5989FBB1AD0185C0037D054 /* Interface.storyboard */; };
-		C5989FBF1AD0185C0037D054 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5989FBE1AD0185C0037D054 /* Images.xcassets */; };
-		C5989FC21AD0185C0037D054 /* mismeet WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C5989FA21AD0185C0037D054 /* mismeet WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C5989FCF1AD019C30037D054 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FCC1AD019C30037D054 /* FirstViewController.m */; };
-		C5989FD01AD019C30037D054 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FCE1AD019C30037D054 /* SecondViewController.m */; };
-		C5BE90CE1AD173AE00B774B0 /* MIMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE90CD1AD173AE00B774B0 /* MIMBaseModel.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C5989F8F1AD018100037D054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5989F6A1AD018100037D054 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C5989F711AD018100037D054;
-			remoteInfo = mismeet;
-		};
-		C5989FB61AD0185C0037D054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5989F6A1AD018100037D054 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C5989FB31AD0185C0037D054;
-			remoteInfo = "mismeet WatchKit App";
-		};
-		C5989FC01AD0185C0037D054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5989F6A1AD018100037D054 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C5989FA11AD0185C0037D054;
-			remoteInfo = "mismeet WatchKit Extension";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		C5989FC91AD0185C0037D054 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				C5989FC21AD0185C0037D054 /* mismeet WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		C50DDB171AD2C4810088E9DD /* MIMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIMBaseViewController.h; path = mismeet/Controller/MIMBaseViewController.h; sourceTree = SOURCE_ROOT; };
-		C50DDB181AD2C4810088E9DD /* MIMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIMBaseViewController.m; path = mismeet/Controller/MIMBaseViewController.m; sourceTree = SOURCE_ROOT; };
-		C5989F721AD018100037D054 /* mismeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mismeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5989F761AD018100037D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5989F771AD018100037D054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C5989F791AD018100037D054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C5989F7A1AD018100037D054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5989F831AD018100037D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C5989F851AD018100037D054 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C5989F881AD018100037D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C5989F8E1AD018100037D054 /* mismeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mismeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5989F931AD018100037D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5989F941AD018100037D054 /* mismeetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mismeetTests.m; sourceTree = "<group>"; };
-		C5989FA21AD0185C0037D054 /* mismeet WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mismeet WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5989FA51AD0185C0037D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5989FA61AD0185C0037D054 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		C5989FA71AD0185C0037D054 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		C5989FA81AD0185C0037D054 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		C5989FAA1AD0185C0037D054 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		C5989FAB1AD0185C0037D054 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		C5989FAD1AD0185C0037D054 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
-		C5989FAE1AD0185C0037D054 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
-		C5989FB01AD0185C0037D054 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C5989FB41AD0185C0037D054 /* mismeet WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mismeet WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5989FBA1AD0185C0037D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5989FBC1AD0185C0037D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		C5989FBE1AD0185C0037D054 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C5989FCB1AD019C30037D054 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C5989FCC1AD019C30037D054 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C5989FCD1AD019C30037D054 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C5989FCE1AD019C30037D054 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		C5BE90CC1AD173AE00B774B0 /* MIMBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIMBaseModel.h; path = mismeet/Model/MIMBaseModel.h; sourceTree = SOURCE_ROOT; };
-		C5BE90CD1AD173AE00B774B0 /* MIMBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIMBaseModel.m; path = mismeet/Model/MIMBaseModel.m; sourceTree = SOURCE_ROOT; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		C5989F6F1AD018100037D054 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5989F8B1AD018100037D054 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5989F9F1AD0185C0037D054 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		C5989F691AD018100037D054 = {
-			isa = PBXGroup;
-			children = (
-				C5989F741AD018100037D054 /* mismeet */,
-				C5989F911AD018100037D054 /* mismeetTests */,
-				C5989FA31AD0185C0037D054 /* mismeet WatchKit Extension */,
-				C5989FB81AD0185C0037D054 /* mismeet WatchKit App */,
-				C5989F731AD018100037D054 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		C5989F731AD018100037D054 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C5989F721AD018100037D054 /* mismeet.app */,
-				C5989F8E1AD018100037D054 /* mismeetTests.xctest */,
-				C5989FA21AD0185C0037D054 /* mismeet WatchKit Extension.appex */,
-				C5989FB41AD0185C0037D054 /* mismeet WatchKit App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C5989F741AD018100037D054 /* mismeet */ = {
-			isa = PBXGroup;
-			children = (
-				C5BE90CF1AD178C500B774B0 /* Request */,
-				C5989FD11AD01B060037D054 /* Model */,
-				C5989FD21AD01B060037D054 /* Utility */,
-				C5989FD31AD01B060037D054 /* View */,
-				C5989FCA1AD019C30037D054 /* Controller */,
-				C5989F791AD018100037D054 /* AppDelegate.h */,
-				C5989F7A1AD018100037D054 /* AppDelegate.m */,
-				C5989F821AD018100037D054 /* Main.storyboard */,
-				C5989F851AD018100037D054 /* Images.xcassets */,
-				C5989F871AD018100037D054 /* LaunchScreen.xib */,
-				C5989F751AD018100037D054 /* Supporting Files */,
-			);
-			path = mismeet;
-			sourceTree = "<group>";
-		};
-		C5989F751AD018100037D054 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5989F761AD018100037D054 /* Info.plist */,
-				C5989F771AD018100037D054 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C5989F911AD018100037D054 /* mismeetTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5989F941AD018100037D054 /* mismeetTests.m */,
-				C5989F921AD018100037D054 /* Supporting Files */,
-			);
-			path = mismeetTests;
-			sourceTree = "<group>";
-		};
-		C5989F921AD018100037D054 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5989F931AD018100037D054 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C5989FA31AD0185C0037D054 /* mismeet WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				C5989FA71AD0185C0037D054 /* InterfaceController.h */,
-				C5989FA81AD0185C0037D054 /* InterfaceController.m */,
-				C5989FAA1AD0185C0037D054 /* NotificationController.h */,
-				C5989FAB1AD0185C0037D054 /* NotificationController.m */,
-				C5989FAD1AD0185C0037D054 /* GlanceController.h */,
-				C5989FAE1AD0185C0037D054 /* GlanceController.m */,
-				C5989FB01AD0185C0037D054 /* Images.xcassets */,
-				C5989FA41AD0185C0037D054 /* Supporting Files */,
-			);
-			path = "mismeet WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		C5989FA41AD0185C0037D054 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5989FA51AD0185C0037D054 /* Info.plist */,
-				C5989FA61AD0185C0037D054 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C5989FB81AD0185C0037D054 /* mismeet WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				C5989FBB1AD0185C0037D054 /* Interface.storyboard */,
-				C5989FBE1AD0185C0037D054 /* Images.xcassets */,
-				C5989FB91AD0185C0037D054 /* Supporting Files */,
-			);
-			path = "mismeet WatchKit App";
-			sourceTree = "<group>";
-		};
-		C5989FB91AD0185C0037D054 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5989FBA1AD0185C0037D054 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C5989FCA1AD019C30037D054 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C5989FCB1AD019C30037D054 /* FirstViewController.h */,
-				C5989FCC1AD019C30037D054 /* FirstViewController.m */,
-				C5989FCD1AD019C30037D054 /* SecondViewController.h */,
-				C5989FCE1AD019C30037D054 /* SecondViewController.m */,
-				C50DDB171AD2C4810088E9DD /* MIMBaseViewController.h */,
-				C50DDB181AD2C4810088E9DD /* MIMBaseViewController.m */,
-			);
-			name = Controller;
-			path = controller;
-			sourceTree = "<group>";
-		};
-		C5989FD11AD01B060037D054 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C5BE90CC1AD173AE00B774B0 /* MIMBaseModel.h */,
-				C5BE90CD1AD173AE00B774B0 /* MIMBaseModel.m */,
-			);
-			name = Model;
-			path = model;
-			sourceTree = "<group>";
-		};
-		C5989FD21AD01B060037D054 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Utility;
-			path = utility;
-			sourceTree = "<group>";
-		};
-		C5989FD31AD01B060037D054 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			path = view;
-			sourceTree = "<group>";
-		};
-		C5BE90CF1AD178C500B774B0 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		C5989F711AD018100037D054 /* mismeet */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5989F981AD018100037D054 /* Build configuration list for PBXNativeTarget "mismeet" */;
-			buildPhases = (
-				C5989F6E1AD018100037D054 /* Sources */,
-				C5989F6F1AD018100037D054 /* Frameworks */,
-				C5989F701AD018100037D054 /* Resources */,
-				C5989FC91AD0185C0037D054 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C5989FC11AD0185C0037D054 /* PBXTargetDependency */,
-			);
-			name = mismeet;
-			productName = mismeet;
-			productReference = C5989F721AD018100037D054 /* mismeet.app */;
-			productType = "com.apple.product-type.application";
-		};
-		C5989F8D1AD018100037D054 /* mismeetTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5989F9B1AD018100037D054 /* Build configuration list for PBXNativeTarget "mismeetTests" */;
-			buildPhases = (
-				C5989F8A1AD018100037D054 /* Sources */,
-				C5989F8B1AD018100037D054 /* Frameworks */,
-				C5989F8C1AD018100037D054 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C5989F901AD018100037D054 /* PBXTargetDependency */,
-			);
-			name = mismeetTests;
-			productName = mismeetTests;
-			productReference = C5989F8E1AD018100037D054 /* mismeetTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C5989FA11AD0185C0037D054 /* mismeet WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5989FC61AD0185C0037D054 /* Build configuration list for PBXNativeTarget "mismeet WatchKit Extension" */;
-			buildPhases = (
-				C5989F9E1AD0185C0037D054 /* Sources */,
-				C5989F9F1AD0185C0037D054 /* Frameworks */,
-				C5989FA01AD0185C0037D054 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C5989FB71AD0185C0037D054 /* PBXTargetDependency */,
-			);
-			name = "mismeet WatchKit Extension";
-			productName = "mismeet WatchKit Extension";
-			productReference = C5989FA21AD0185C0037D054 /* mismeet WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit-extension";
-		};
-		C5989FB31AD0185C0037D054 /* mismeet WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5989FC31AD0185C0037D054 /* Build configuration list for PBXNativeTarget "mismeet WatchKit App" */;
-			buildPhases = (
-				C5989FB21AD0185C0037D054 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "mismeet WatchKit App";
-			productName = "mismeet WatchKit App";
-			productReference = C5989FB41AD0185C0037D054 /* mismeet WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		C5989F6A1AD018100037D054 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0620;
-				ORGANIZATIONNAME = sunloc;
-				TargetAttributes = {
-					C5989F711AD018100037D054 = {
-						CreatedOnToolsVersion = 6.2;
-					};
-					C5989F8D1AD018100037D054 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = C5989F711AD018100037D054;
-					};
-					C5989FA11AD0185C0037D054 = {
-						CreatedOnToolsVersion = 6.2;
-					};
-					C5989FB31AD0185C0037D054 = {
-						CreatedOnToolsVersion = 6.2;
-					};
-				};
-			};
-			buildConfigurationList = C5989F6D1AD018100037D054 /* Build configuration list for PBXProject "mismeet" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = C5989F691AD018100037D054;
-			productRefGroup = C5989F731AD018100037D054 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				C5989F711AD018100037D054 /* mismeet */,
-				C5989F8D1AD018100037D054 /* mismeetTests */,
-				C5989FA11AD0185C0037D054 /* mismeet WatchKit Extension */,
-				C5989FB31AD0185C0037D054 /* mismeet WatchKit App */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		C5989F701AD018100037D054 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5989F841AD018100037D054 /* Main.storyboard in Resources */,
-				C5989F891AD018100037D054 /* LaunchScreen.xib in Resources */,
-				C5989F861AD018100037D054 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5989F8C1AD018100037D054 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5989FA01AD0185C0037D054 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5989FB11AD0185C0037D054 /* Images.xcassets in Resources */,
-				C5989FB51AD0185C0037D054 /* mismeet WatchKit App.app in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5989FB21AD0185C0037D054 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5989FBD1AD0185C0037D054 /* Interface.storyboard in Resources */,
-				C5989FBF1AD0185C0037D054 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		C5989F6E1AD018100037D054 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5989FD01AD019C30037D054 /* SecondViewController.m in Sources */,
-				C5989F7B1AD018100037D054 /* AppDelegate.m in Sources */,
-				C5989FCF1AD019C30037D054 /* FirstViewController.m in Sources */,
-				C5BE90CE1AD173AE00B774B0 /* MIMBaseModel.m in Sources */,
-				C5989F781AD018100037D054 /* main.m in Sources */,
-				C50DDB191AD2C4810088E9DD /* MIMBaseViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5989F8A1AD018100037D054 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5989F951AD018100037D054 /* mismeetTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5989F9E1AD0185C0037D054 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5989FAC1AD0185C0037D054 /* NotificationController.m in Sources */,
-				C5989FA91AD0185C0037D054 /* InterfaceController.m in Sources */,
-				C5989FAF1AD0185C0037D054 /* GlanceController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C5989F901AD018100037D054 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C5989F711AD018100037D054 /* mismeet */;
-			targetProxy = C5989F8F1AD018100037D054 /* PBXContainerItemProxy */;
-		};
-		C5989FB71AD0185C0037D054 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C5989FB31AD0185C0037D054 /* mismeet WatchKit App */;
-			targetProxy = C5989FB61AD0185C0037D054 /* PBXContainerItemProxy */;
-		};
-		C5989FC11AD0185C0037D054 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C5989FA11AD0185C0037D054 /* mismeet WatchKit Extension */;
-			targetProxy = C5989FC01AD0185C0037D054 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C5989F821AD018100037D054 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5989F831AD018100037D054 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C5989F871AD018100037D054 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5989F881AD018100037D054 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		C5989FBB1AD0185C0037D054 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5989FBC1AD0185C0037D054 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		C5989F961AD018100037D054 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		C5989F971AD018100037D054 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C5989F991AD018100037D054 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = mismeet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C5989F9A1AD018100037D054 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = mismeet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		C5989F9C1AD018100037D054 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = mismeetTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mismeet.app/mismeet";
-			};
-			name = Debug;
-		};
-		C5989F9D1AD018100037D054 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = mismeetTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mismeet.app/mismeet";
-			};
-			name = Release;
-		};
-		C5989FC41AD0185C0037D054 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				IBSC_MODULE = mismeet_WatchKit_Extension;
-				INFOPLIST_FILE = "mismeet WatchKit App/Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
-			};
-			name = Debug;
-		};
-		C5989FC51AD0185C0037D054 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				IBSC_MODULE = mismeet_WatchKit_Extension;
-				INFOPLIST_FILE = "mismeet WatchKit App/Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
-			};
-			name = Release;
-		};
-		C5989FC71AD0185C0037D054 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "mismeet WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C5989FC81AD0185C0037D054 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "mismeet WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		C5989F6D1AD018100037D054 /* Build configuration list for PBXProject "mismeet" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5989F961AD018100037D054 /* Debug */,
-				C5989F971AD018100037D054 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C5989F981AD018100037D054 /* Build configuration list for PBXNativeTarget "mismeet" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5989F991AD018100037D054 /* Debug */,
-				C5989F9A1AD018100037D054 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C5989F9B1AD018100037D054 /* Build configuration list for PBXNativeTarget "mismeetTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5989F9C1AD018100037D054 /* Debug */,
-				C5989F9D1AD018100037D054 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C5989FC31AD0185C0037D054 /* Build configuration list for PBXNativeTarget "mismeet WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5989FC41AD0185C0037D054 /* Debug */,
-				C5989FC51AD0185C0037D054 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C5989FC61AD0185C0037D054 /* Build configuration list for PBXNativeTarget "mismeet WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5989FC71AD0185C0037D054 /* Debug */,
-				C5989FC81AD0185C0037D054 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = C5989F6A1AD018100037D054 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>03E2208CB8A04683983073C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A6342DA81AC140B48D003485</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7A697F6941154D7A810B0822</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8866000ECAFD4AECB6424BDD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>894C9B3E0EE04B7F9E069AA2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>A6342DA81AC140B48D003485</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B8A2AF8C17D44AC2B369FD20</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A6342DA81AC140B48D003485</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C50DDB171AD2C4810088E9DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MIMBaseViewController.h</string>
+			<key>path</key>
+			<string>mismeet/Controller/MIMBaseViewController.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C50DDB181AD2C4810088E9DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MIMBaseViewController.m</string>
+			<key>path</key>
+			<string>mismeet/Controller/MIMBaseViewController.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C50DDB191AD2C4810088E9DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C50DDB181AD2C4810088E9DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989F691AD018100037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989F741AD018100037D054</string>
+				<string>C5989F911AD018100037D054</string>
+				<string>C5989FA31AD0185C0037D054</string>
+				<string>C5989FB81AD0185C0037D054</string>
+				<string>C5989F731AD018100037D054</string>
+				<string>7A697F6941154D7A810B0822</string>
+				<string>B8A2AF8C17D44AC2B369FD20</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F6A1AD018100037D054</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0620</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>sunloc</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>C5989F711AD018100037D054</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.2</string>
+					</dict>
+					<key>C5989F8D1AD018100037D054</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.2</string>
+						<key>TestTargetID</key>
+						<string>C5989F711AD018100037D054</string>
+					</dict>
+					<key>C5989FA11AD0185C0037D054</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.2</string>
+					</dict>
+					<key>C5989FB31AD0185C0037D054</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.2</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>C5989F6D1AD018100037D054</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>C5989F691AD018100037D054</string>
+			<key>productRefGroup</key>
+			<string>C5989F731AD018100037D054</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>C5989F711AD018100037D054</string>
+				<string>C5989F8D1AD018100037D054</string>
+				<string>C5989FA11AD0185C0037D054</string>
+				<string>C5989FB31AD0185C0037D054</string>
+			</array>
+		</dict>
+		<key>C5989F6D1AD018100037D054</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C5989F961AD018100037D054</string>
+				<string>C5989F971AD018100037D054</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C5989F6E1AD018100037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C5989FD01AD019C30037D054</string>
+				<string>C5989F7B1AD018100037D054</string>
+				<string>C5989FCF1AD019C30037D054</string>
+				<string>C5BE90CE1AD173AE00B774B0</string>
+				<string>C5989F781AD018100037D054</string>
+				<string>C50DDB191AD2C4810088E9DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989F6F1AD018100037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>03E2208CB8A04683983073C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989F701AD018100037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C5989F841AD018100037D054</string>
+				<string>C5989F891AD018100037D054</string>
+				<string>C5989F861AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989F711AD018100037D054</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C5989F981AD018100037D054</string>
+			<key>buildPhases</key>
+			<array>
+				<string>894C9B3E0EE04B7F9E069AA2</string>
+				<string>C5989F6E1AD018100037D054</string>
+				<string>C5989F6F1AD018100037D054</string>
+				<string>C5989F701AD018100037D054</string>
+				<string>C5989FC91AD0185C0037D054</string>
+				<string>8866000ECAFD4AECB6424BDD</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>C5989FC11AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>mismeet</string>
+			<key>productName</key>
+			<string>mismeet</string>
+			<key>productReference</key>
+			<string>C5989F721AD018100037D054</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>C5989F721AD018100037D054</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>mismeet.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C5989F731AD018100037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989F721AD018100037D054</string>
+				<string>C5989F8E1AD018100037D054</string>
+				<string>C5989FA21AD0185C0037D054</string>
+				<string>C5989FB41AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F741AD018100037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5BE90CF1AD178C500B774B0</string>
+				<string>C5989FD11AD01B060037D054</string>
+				<string>C5989FD21AD01B060037D054</string>
+				<string>C5989FD31AD01B060037D054</string>
+				<string>C5989FCA1AD019C30037D054</string>
+				<string>C5989F791AD018100037D054</string>
+				<string>C5989F7A1AD018100037D054</string>
+				<string>C5989F821AD018100037D054</string>
+				<string>C5989F851AD018100037D054</string>
+				<string>C5989F871AD018100037D054</string>
+				<string>C5989F751AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>mismeet</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F751AD018100037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989F761AD018100037D054</string>
+				<string>C5989F771AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F761AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F771AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F781AD018100037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989F771AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989F791AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F7A1AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F7B1AD018100037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989F7A1AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989F821AD018100037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989F831AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F831AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F841AD018100037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989F821AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989F851AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F861AD018100037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989F851AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989F871AD018100037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989F881AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F881AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F891AD018100037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989F871AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989F8A1AD018100037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C5989F951AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989F8B1AD018100037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989F8C1AD018100037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989F8D1AD018100037D054</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C5989F9B1AD018100037D054</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C5989F8A1AD018100037D054</string>
+				<string>C5989F8B1AD018100037D054</string>
+				<string>C5989F8C1AD018100037D054</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>C5989F901AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>mismeetTests</string>
+			<key>productName</key>
+			<string>mismeetTests</string>
+			<key>productReference</key>
+			<string>C5989F8E1AD018100037D054</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>C5989F8E1AD018100037D054</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>mismeetTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C5989F8F1AD018100037D054</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>C5989F6A1AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>C5989F711AD018100037D054</string>
+			<key>remoteInfo</key>
+			<string>mismeet</string>
+		</dict>
+		<key>C5989F901AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>C5989F711AD018100037D054</string>
+			<key>targetProxy</key>
+			<string>C5989F8F1AD018100037D054</string>
+		</dict>
+		<key>C5989F911AD018100037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989F941AD018100037D054</string>
+				<string>C5989F921AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>mismeetTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F921AD018100037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989F931AD018100037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F931AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F941AD018100037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>mismeetTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989F951AD018100037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989F941AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989F961AD018100037D054</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C5989F971AD018100037D054</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C5989F981AD018100037D054</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C5989F991AD018100037D054</string>
+				<string>C5989F9A1AD018100037D054</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C5989F991AD018100037D054</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7A697F6941154D7A810B0822</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>mismeet/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C5989F9A1AD018100037D054</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7A697F6941154D7A810B0822</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>mismeet/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C5989F9B1AD018100037D054</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C5989F9C1AD018100037D054</string>
+				<string>C5989F9D1AD018100037D054</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C5989F9C1AD018100037D054</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>mismeetTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/mismeet.app/mismeet</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C5989F9D1AD018100037D054</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>mismeetTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/mismeet.app/mismeet</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C5989F9E1AD0185C0037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C5989FAC1AD0185C0037D054</string>
+				<string>C5989FA91AD0185C0037D054</string>
+				<string>C5989FAF1AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989F9F1AD0185C0037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989FA01AD0185C0037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C5989FB11AD0185C0037D054</string>
+				<string>C5989FB51AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989FA11AD0185C0037D054</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C5989FC61AD0185C0037D054</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C5989F9E1AD0185C0037D054</string>
+				<string>C5989F9F1AD0185C0037D054</string>
+				<string>C5989FA01AD0185C0037D054</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>C5989FB71AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>mismeet WatchKit Extension</string>
+			<key>productName</key>
+			<string>mismeet WatchKit Extension</string>
+			<key>productReference</key>
+			<string>C5989FA21AD0185C0037D054</string>
+			<key>productType</key>
+			<string>com.apple.product-type.watchkit-extension</string>
+		</dict>
+		<key>C5989FA21AD0185C0037D054</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.app-extension</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>mismeet WatchKit Extension.appex</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C5989FA31AD0185C0037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989FA71AD0185C0037D054</string>
+				<string>C5989FA81AD0185C0037D054</string>
+				<string>C5989FAA1AD0185C0037D054</string>
+				<string>C5989FAB1AD0185C0037D054</string>
+				<string>C5989FAD1AD0185C0037D054</string>
+				<string>C5989FAE1AD0185C0037D054</string>
+				<string>C5989FB01AD0185C0037D054</string>
+				<string>C5989FA41AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>mismeet WatchKit Extension</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FA41AD0185C0037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989FA51AD0185C0037D054</string>
+				<string>C5989FA61AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FA51AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FA61AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>PushNotificationPayload.apns</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FA71AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>InterfaceController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FA81AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>InterfaceController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FA91AD0185C0037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FA81AD0185C0037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FAA1AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NotificationController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FAB1AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NotificationController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FAC1AD0185C0037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FAB1AD0185C0037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FAD1AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GlanceController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FAE1AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>GlanceController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FAF1AD0185C0037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FAE1AD0185C0037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FB01AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FB11AD0185C0037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FB01AD0185C0037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FB21AD0185C0037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C5989FBD1AD0185C0037D054</string>
+				<string>C5989FBF1AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989FB31AD0185C0037D054</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C5989FC31AD0185C0037D054</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C5989FB21AD0185C0037D054</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>mismeet WatchKit App</string>
+			<key>productName</key>
+			<string>mismeet WatchKit App</string>
+			<key>productReference</key>
+			<string>C5989FB41AD0185C0037D054</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application.watchapp</string>
+		</dict>
+		<key>C5989FB41AD0185C0037D054</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>mismeet WatchKit App.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C5989FB51AD0185C0037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FB41AD0185C0037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FB61AD0185C0037D054</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>C5989F6A1AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>C5989FB31AD0185C0037D054</string>
+			<key>remoteInfo</key>
+			<string>mismeet WatchKit App</string>
+		</dict>
+		<key>C5989FB71AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>C5989FB31AD0185C0037D054</string>
+			<key>targetProxy</key>
+			<string>C5989FB61AD0185C0037D054</string>
+		</dict>
+		<key>C5989FB81AD0185C0037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989FBB1AD0185C0037D054</string>
+				<string>C5989FBE1AD0185C0037D054</string>
+				<string>C5989FB91AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>mismeet WatchKit App</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FB91AD0185C0037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989FBA1AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FBA1AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FBB1AD0185C0037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989FBC1AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Interface.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FBC1AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Interface.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FBD1AD0185C0037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FBB1AD0185C0037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FBE1AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FBF1AD0185C0037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FBE1AD0185C0037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FC01AD0185C0037D054</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>C5989F6A1AD018100037D054</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>C5989FA11AD0185C0037D054</string>
+			<key>remoteInfo</key>
+			<string>mismeet WatchKit Extension</string>
+		</dict>
+		<key>C5989FC11AD0185C0037D054</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>C5989FA11AD0185C0037D054</string>
+			<key>targetProxy</key>
+			<string>C5989FC01AD0185C0037D054</string>
+		</dict>
+		<key>C5989FC21AD0185C0037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FA21AD0185C0037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>RemoveHeadersOnCopy</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C5989FC31AD0185C0037D054</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C5989FC41AD0185C0037D054</string>
+				<string>C5989FC51AD0185C0037D054</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C5989FC41AD0185C0037D054</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>IBSC_MODULE</key>
+				<string>mismeet_WatchKit_Extension</string>
+				<key>INFOPLIST_FILE</key>
+				<string>mismeet WatchKit App/Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]</key>
+				<string>1,4</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C5989FC51AD0185C0037D054</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>IBSC_MODULE</key>
+				<string>mismeet_WatchKit_Extension</string>
+				<key>INFOPLIST_FILE</key>
+				<string>mismeet WatchKit App/Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]</key>
+				<string>1,4</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C5989FC61AD0185C0037D054</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C5989FC71AD0185C0037D054</string>
+				<string>C5989FC81AD0185C0037D054</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C5989FC71AD0185C0037D054</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>mismeet WatchKit Extension/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>${TARGET_NAME}</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C5989FC81AD0185C0037D054</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>mismeet WatchKit Extension/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>${TARGET_NAME}</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C5989FC91AD0185C0037D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>dstPath</key>
+			<string></string>
+			<key>dstSubfolderSpec</key>
+			<string>13</string>
+			<key>files</key>
+			<array>
+				<string>C5989FC21AD0185C0037D054</string>
+			</array>
+			<key>isa</key>
+			<string>PBXCopyFilesBuildPhase</string>
+			<key>name</key>
+			<string>Embed App Extensions</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5989FCA1AD019C30037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5989FCB1AD019C30037D054</string>
+				<string>C5989FCC1AD019C30037D054</string>
+				<string>C5989FCD1AD019C30037D054</string>
+				<string>C5989FCE1AD019C30037D054</string>
+				<string>C50DDB171AD2C4810088E9DD</string>
+				<string>C50DDB181AD2C4810088E9DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Controller</string>
+			<key>path</key>
+			<string>controller</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FCB1AD019C30037D054</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FirstViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FCC1AD019C30037D054</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FirstViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FCD1AD019C30037D054</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SecondViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FCE1AD019C30037D054</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SecondViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FCF1AD019C30037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FCC1AD019C30037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FD01AD019C30037D054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5989FCE1AD019C30037D054</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5989FD11AD01B060037D054</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C5BE90CC1AD173AE00B774B0</string>
+				<string>C5BE90CD1AD173AE00B774B0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Model</string>
+			<key>path</key>
+			<string>model</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FD21AD01B060037D054</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Utility</string>
+			<key>path</key>
+			<string>utility</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5989FD31AD01B060037D054</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>View</string>
+			<key>path</key>
+			<string>view</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5BE90CC1AD173AE00B774B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MIMBaseModel.h</string>
+			<key>path</key>
+			<string>mismeet/Model/MIMBaseModel.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C5BE90CD1AD173AE00B774B0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MIMBaseModel.m</string>
+			<key>path</key>
+			<string>mismeet/Model/MIMBaseModel.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C5BE90CE1AD173AE00B774B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5BE90CD1AD173AE00B774B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C5BE90CF1AD178C500B774B0</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Request</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>C5989F6A1AD018100037D054</string>
+</dict>
+</plist>
